@@ -1,16 +1,41 @@
+
+
+body {
+  background-image: url("../images/background.jpg");
+  /* filter: opacity(.5); */
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 img {
   width: 275px;
 }
 
 .dogs, .cats {
-  width: 100%;
+  display: inline-block;
 }
 
-.animal {
+.dogs {
+  background-color: grey;
+}
+
+.cats {
+  background-color: lightgrey;
+}
+
+.profile {
   float: left;
   width: 300px;
 }
 
 .clearfix {
   clear: both;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.animals {
+  text-align: center;
 }
