@@ -1,41 +1,52 @@
-
-
 body {
   background-image: url("../images/background.jpg");
-  /* filter: opacity(.5); */
   background-color:rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  background-color: grey;
+  text-align: center;
+  box-shadow: 6px 6px yellow;
+  display: inline;
+}
+
+h2 {
+  text-align: center;
 }
 
 img {
   width: 275px;
 }
 
-.dogs, .cats {
-  display: inline-block;
-}
-
-.dogs {
-  background-color: grey;
-}
-
-.cats {
-  background-color: lightgrey;
+.animals {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .profile {
   float: left;
   width: 300px;
+  margin: 0 20px;
 }
 
 .clearfix {
   clear: both;
 }
 
-h2 {
-  text-align: center;
-
+.dogs, .cats {
+  display: inline-block;
+  background-color: grey;
+  box-shadow: 6px 6px yellow;
 }
 
-.animals {
-  text-align: center;
+.dogs p {
+  font-family: sans-serif;
+}
+
+.cats p {
+  font-family: fantasy;
+}
+
+.cats img {
+  border-radius: 100px;
 }
