@@ -1,0 +1,16 @@
+img {
+  width: 275px;
+}
+
+.dogs, .cats {
+  width: 100%;
+}
+
+.animal {
+  float: left;
+  width: 300px;
+}
+
+.clearfix {
+  clear: both;
+}
