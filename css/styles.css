@@ -7,7 +7,8 @@ h1 {
   background-color: grey;
   text-align: center;
   box-shadow: 6px 6px yellow;
-  display: inline;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 h2 {
@@ -29,10 +30,6 @@ img {
   margin: 0 20px;
 }
 
-.clearfix {
-  clear: both;
-}
-
 .dogs, .cats {
   display: inline-block;
   background-color: grey;
@@ -50,3 +47,6 @@ img {
 .cats img {
   border-radius: 100px;
 }
+
+/* 
+https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689 */
